@@ -5,13 +5,14 @@
 
 ## 💻 Running the project
 
-1. Open your terminal in the root folder of the project.
-2. Run the following command to build all docker images (database and API) and execute them:
+1. Run Docker Desktop on your computer.
+2. Open your terminal in the root folder of the project.
+3. Run the following command to build all docker images (database and API) and execute them:
 
    ```bash
    docker compose up -d
    ```
-3. Make GraphQL requests  to http://localhost:3333/graphql
+4. Make GraphQL requests  to http://localhost:3333/graphql
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=GraphQL-API&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fguipiveti%2FGraphQL-API%2Fmain%2FAcceleratorApp-Insomnia.json)
 
